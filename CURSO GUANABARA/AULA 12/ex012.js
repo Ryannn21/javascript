@@ -1,6 +1,11 @@
-var idade = 22
-if (idade < 18) {
-    console.log('Menor de idade')
+var hora = 12
+console.log(`Voce tem ${idade} anos.`)
+if (idade < 16) {
+    console.log('Não Vota')
 } else {
-    console.log('Maior de idade')
+    if (idade < 18 || idade > 65) {
+        console.log('Voto Opcional')
+    } else {
+        console.log('Voto Obrigatorio')
+    }
 }
